@@ -1,0 +1,22 @@
+{
+    "name": "shrucloud/php-sdk",
+    "description": "Official PHP client for the SHRU Cloud reseller API (S-SERVER) - sync a catalog, place orders, and check status against any SHRU Cloud platform over the HMAC-signed SHRU protocol.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["shru", "shru-cloud", "reseller-api", "hmac", "unlock", "s-server"],
+    "homepage": "https://github.com/shrucloud/SHRU_Cloud-PHP-SDK",
+    "support": {
+        "issues": "https://github.com/shrucloud/SHRU_Cloud-PHP-SDK/issues",
+        "source": "https://github.com/shrucloud/SHRU_Cloud-PHP-SDK"
+    },
+    "require": {
+        "php": ">=7.2",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ShruCloud\\": "src/"
+        }
+    }
+}
