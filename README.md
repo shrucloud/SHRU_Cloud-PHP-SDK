@@ -8,7 +8,7 @@ Compatible with any SHRU Cloud platform that implements the protocol below - a p
 
 ## Requirements
 
-- PHP 7.2+
+- PHP 7.2 or newer. **Recommended: PHP 8.5.12 or newer**, which includes the fixes for CVE-2026-109618 and CVE-2026-109619 (PHP2Shell). Older branches are fixed in 8.4.27, 8.3.36 and 8.2.35; PHP 8.1 and older no longer receive regular security updates.
 - `ext-curl`, `ext-json` (both ship with PHP by default)
 
 ## Install
